@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>calculadora</title>
+</head>
+
+<body>
+
+    <div  class="calculadora" name="calc">
+        <input type="text" class="value" name="txt" id="teclado" >
+        <span class="num clear" onclick="document.querySelector('#teclado').value =''">C</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='/'">/</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='*'">*</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='7'">7</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='8'">8</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='9'">9</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='-'">-</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='4'">4</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='5'">5</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='6'">6</span>
+        <span class="num plus" onclick="document.querySelector('#teclado').value +='+'">+</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='3'">3</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='2'">2</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='1'">1</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='0'">0</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='00'">00</span>
+        <span class="num" onclick="document.querySelector('#teclado').value +='.'">.</span>
+        <span class="num equal" onclick="document.querySelector('#teclado').value = eval(document.querySelector('#teclado').value)">=</span>
+        
+    </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
