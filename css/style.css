@@ -3,6 +3,7 @@
     font-family: 'poppins', sans-serif;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.3rem;
 } 
 body{
     display: flex;
@@ -33,7 +34,7 @@ body{
     width: 60px;
     height: 60px;
     color: aliceblue;
-    background:#0c2835 ;
+    background:#196c92 ;
     place-items: center;
     border: 1px solid rgba(0, 0,0 , .1);
 }
@@ -57,4 +58,8 @@ body{
 .calculadora span.equal{ 
    
     background: #01a900;
+}
+
+input{
+    font-size: 20px;
 }
