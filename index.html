@@ -10,8 +10,8 @@
 
 <body>
 
-    <div  class="calculadora" name="calc">
-        <input type="text" class="value" name="txt" id="teclado" autocomplete="off" maxlength="23" >
+    <div  class="calculadora" name="calc"  >
+        <input type="text"  class="value" name="txt" id="teclado" autocomplete="off" maxlength="23" onkeypress="validar(event)"  >
         <span class="num clear" onclick="document.querySelector('#teclado').value =''">C</span>
         <span class="num" onclick="document.querySelector('#teclado').value +='/'">/</span>
         <span class="num" onclick="document.querySelector('#teclado').value +='*'">*</span>
