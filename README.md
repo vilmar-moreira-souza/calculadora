@@ -8,7 +8,7 @@
 <img src="./img/calculadora_1.png" width="340" alt="print da tela">
 
 <h3>sobre a aplicação</h3>
-<p>essa aplicação é uma calculadora simples, onde é possivel fazer calculos de adição, subtração, divisão e multiplicação.pode ser testada [aqui](https://vilmar-moreira-souza.github.io/calculadora/)<br>
+<p>essa aplicação é uma calculadora simples, onde é possivel fazer calculos de adição, subtração, divisão e multiplicação.pode ser testada <a href="https://vilmar-moreira-souza.github.io/calculadora/" target="blank"> aqui </a> <br>
 Pode ser utilizada pelo teclado ou pelo mouse.   </p>
 
 <h3>ideias para implementar</h3>
