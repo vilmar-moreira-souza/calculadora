@@ -8,19 +8,10 @@ teclado.addEventListener("keypress", (event) => {
     teclado.value = eval(teclado.value)
   }
 })
-
-
+const testar = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '/', '*', '-', '+', '.', 'Enter']
 function validar(event) {
-  if (event.key == "0" || event.key == "Enter" || event.key == "1" || event.key == "4" ||
-    event.key == "2" || event.key == "5" ||
-    event.key == "3" || event.key == "6" ||
-    event.key == "7" || event.key == "9" ||
-    event.key == "8" || event.key == "/" ||
-    event.key == "*" || event.key == "-" ||
-    event.key == "+" ||
-    event.key == "."
-
-  ) { } else
+  if (testar.includes(event.key))//se for nro mostra 
+  { } else
     if (event.key == ",") {// troca , por .
       event.preventDefault()
       teclado.value += "."
